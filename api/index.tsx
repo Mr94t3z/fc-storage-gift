@@ -47,6 +47,7 @@ export const app = new Frog({
   ui: { vars },
   browserLocation: CAST_INTENS,
   imageAspectRatio: '1.91:1',
+  title: 'Farcaster Storage Gift',
 }).use(
   neynar({
     apiKey: process.env.NEYNAR_API_KEY || '',
