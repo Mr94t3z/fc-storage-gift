@@ -66,7 +66,6 @@ const baseUrlNeynarV2 = process.env.BASE_URL_NEYNAR_V2;
 // Initial frame
 app.frame('/', (c) => {
   return c.res({
-    title: 'Farcaster Storage Gift',
     image: (
       <Box
           grow
